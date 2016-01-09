@@ -1,3 +1,6 @@
+/**
+ * These are some comments
+ */
 package edu.sbcc.cs105;
 
 public class HelloWorld {
