@@ -1,0 +1,6 @@
+language: java
+
+script:
+  - javac -d bin/ -cp lib/junit-4.9.jar:lib/sbccutils-1.0.jar:lib/commons-2.4.jar `find . -name "*.java"`
+  - java -cp bin/:lib/junit-4.9.jar:lib/sbccutils-1.0.jar:lib/commons-2.4.jar edu.sbcc.cs105.HelloWorld 
+  
